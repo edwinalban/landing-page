@@ -1,0 +1,111 @@
+/* Universal Selectors */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Element Selectors */
+h1 {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    border-bottom: 5px solid blue;
+    width: 300px;
+    padding: 15px 0px;
+    color: grey;
+}
+
+ul {
+    position: relative;
+    top: 40px;
+    text-align: right;
+    color: #ffffff;
+    display: block;
+    font-size: x-large;
+}
+
+body {
+    background-color: lightgray;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+form {
+    display: block;
+    margin: auto;
+    font-size: larger;
+    width: 250px;
+    padding-bottom: 10px;
+    border: 5px solid grey;
+    border-radius: 25px;
+}
+
+footer {
+    position: relative;
+    top: 220px;
+    text-align: center;
+    height: 75px;
+    width: 100%;
+    background-color: grey;
+    color: #ffffff;
+    padding: 5px 0px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+/* ID Selectors */
+#image-1 {
+    display: block;
+    margin: auto;
+    border: 1px solid grey;
+}
+
+/* Class Selectors */
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    border-bottom: 5px solid grey;
+    z-index: 3;
+}
+
+.image {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+}
+
+.caption {
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    color: grey;
+}
+
+.form-1 {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    border-top: 5px solid gray;
+    border-bottom: 20px solid blue;
+    background-color: blue;
+    color: #ffffff;
+}
